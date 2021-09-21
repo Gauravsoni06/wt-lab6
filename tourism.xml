@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tour.xsl"?>
+<!DOCTYPE note [
+<!ELEMENT HOTELS (HOTEL+)>
+<!ELEMENT HOTEL (NAME, ADDRESS, CATEGORY, ROOM+)>
+<!ELEMENT NAME (#PCDATA)> 
+<!ELEMENT ADDRESS (STREET, CITY, STATE, ZIP)>
+<!ELEMENT STREET (#PCDATA)>
+<!ELEMENT CITY (#PCDATA)> 
+<!ELEMENT STATE (#PCDATA)>
+<!ELEMENT ZIP (#PCDATA)> 
+<!ELEMENT CATEGORY (#PCDATA)>
+<!ELEMENT ROOM (TYPE, PRICE)>
+<!ELEMENT TYPE (#PCDATA)> 
+<!ELEMENT PRICE (AMOUNT, CURRENCY)>
+<!ELEMENT AMOUNT (#PCDATA)>
+<!ELEMENT CURRENCY (#PCDATA)>
+]>
+<HOTELS>
+    <HOTEL>
+        <NAME>City Hotel</NAME>
+        <ADDRESS>
+            <STREET>54 Chambers Street</STREET>
+            <CITY>New York</CITY>
+            <STATE>New York</STATE> 
+            <ZIP>10007</ZIP>
+        </ADDRESS>
+        <CATEGORY>4</CATEGORY>
+        <ROOM>
+            <TYPE>single</TYPE>
+            <PRICE>
+                <AMOUNT>140</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+        <ROOM>
+            <TYPE>double</TYPE>
+            <PRICE>
+                <AMOUNT>180</AMOUNT> 
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+    </HOTEL>
+    <HOTEL>
+        <NAME>Royal Stay</NAME>
+        <ADDRESS>
+            <STREET>14 Chambers Street</STREET>
+            <CITY>New York</CITY>
+            <STATE>New York</STATE> 
+            <ZIP>10007</ZIP>
+        </ADDRESS>
+        <CATEGORY>4</CATEGORY>
+        <ROOM>
+            <TYPE>single</TYPE>
+            <PRICE>
+                <AMOUNT>240</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+        <ROOM>
+            <TYPE>double</TYPE>
+            <PRICE>
+                <AMOUNT>280</AMOUNT> 
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+    </HOTEL>
+    <HOTEL>
+        <NAME>Hills retreat</NAME>
+        <ADDRESS>
+            <STREET>14 Chambers Street</STREET>
+            <CITY>New Jursey</CITY>
+            <STATE>New Jursey</STATE> 
+            <ZIP>10008</ZIP>
+        </ADDRESS>
+        <CATEGORY>3</CATEGORY>
+        <ROOM>
+            <TYPE>single</TYPE>
+            <PRICE>
+                <AMOUNT>100</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+        <ROOM>
+            <TYPE>double</TYPE>
+            <PRICE>
+                <AMOUNT>130</AMOUNT> 
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+    </HOTEL>
+    <HOTEL>
+        <NAME>The Emirates</NAME>
+        <ADDRESS>
+            <STREET>1 carlos Street</STREET>
+            <CITY>New York</CITY>
+            <STATE>New York</STATE> 
+            <ZIP>10007</ZIP>
+        </ADDRESS>
+        <CATEGORY>4</CATEGORY>
+        <ROOM>
+            <TYPE>single</TYPE>
+            <PRICE>
+                <AMOUNT>340</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+        <ROOM>
+            <TYPE>double</TYPE>
+            <PRICE>
+                <AMOUNT>400</AMOUNT> 
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+    </HOTEL>
+    <HOTEL>
+        <NAME>Royal Stay</NAME>
+        <ADDRESS>
+            <STREET>14 Chambers Street</STREET>
+            <CITY>New York</CITY>
+            <STATE>New York</STATE> 
+            <ZIP>10007</ZIP>
+        </ADDRESS>
+        <CATEGORY>4</CATEGORY>
+        <ROOM>
+            <TYPE>single</TYPE>
+            <PRICE>
+                <AMOUNT>240</AMOUNT>
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+        <ROOM>
+            <TYPE>double</TYPE>
+            <PRICE>
+                <AMOUNT>280</AMOUNT> 
+                <CURRENCY>USD</CURRENCY>
+            </PRICE>
+        </ROOM>
+    </HOTEL>
+</HOTELS>
